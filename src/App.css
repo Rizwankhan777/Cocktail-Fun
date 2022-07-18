@@ -1,0 +1,212 @@
+@font-face {
+  font-family: myFont;
+  src: url('./fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf');
+}
+
+.main-header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.main-header .header-link{
+  padding: 10px 20px;
+  list-style: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}
+.logo{
+  width: 220px;
+  height: 70px;
+}
+
+.main-header .header-link link{
+  color: #000;
+}
+
+.desktopHeader{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0;
+}
+.desktopHeader li {
+  list-style: none;
+}
+.desktopHeader li a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  padding:5px 10px;
+  font-size: 20px;
+
+}
+
+.logo{
+  width: 230px;
+  height: 80px;
+}
+
+
+.about-us {
+  text-align: center;
+  font-family: myFont;
+  font-weight: bold;
+}
+.about-us h1{
+  font-size: 60px;
+}
+.about-us p{
+  font-size: 25px;
+  ;letter-spacing: 5px;
+  line-height: 40px;
+}
+
+.backButton{
+  margin-top: 50px;
+  transition: 0.5s;
+}
+
+.backButton a{
+  transition: 0.5s;
+  padding:8px 20px;
+  background-color: yellow;
+  color: #000;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.backButton:hover{
+  transform: translateY(-8px);
+}
+.backButton a:hover{
+  transform: translateY(-4px);
+  color: #000;
+}
+  
+.cocktail-matched {
+  text-transform:capitalize;
+  font-family: myFont;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.cocktailList h2{
+  text-align: center;
+}
+.btn-detail{
+margin-bottom: 15px;
+}
+.cokctail-detail-btn{
+  padding: 8px 30px;
+  color: #fff;
+  border-radius: 4px;
+  background: #476a2e;
+  text-decoration: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border: 1px solid transparent;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.cokctail-detail-btn:hover{
+  background: transparent;
+  border: 1px solid #476a2e;
+  text-decoration: none;
+  color: #476a2e;
+}
+.search-form{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 15px 25px 30px;
+  width: 50%;
+;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  margin: 35px auto;
+}
+.search-form label{
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.search-form input{
+  width: 100%;
+}
+
+.singleCocktail a{
+  font-weight: 900;
+  text-decoration: none;
+  color: #fff;
+  background-color: #476a2e;
+  padding: 8px 30px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  transition: 0.5s;
+  border: 1px solid transparent;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.singleCocktail a:hover{
+  background-color: transparent;
+  border: 1px solid #476a2e;
+  color: #476a2e;
+}
+
+.singleCocktail h2{
+  margin: 10px 0;
+}
+.singleCocktail h4{
+  font-size: 18px;
+  font-weight: 600;
+  color: #476a2e;
+}
+.singleCocktail h6{
+  color: #333;
+  font-size: 16px;
+}
+.singleCocktail h5 {
+  margin-top: 20px;
+  font-size: 16px;
+  display: flex;
+  color: #919191;
+  align-items: flex-start;
+  line-height: 30px;
+}
+
+.singleCocktail span{
+  background-color: #9abf7f;
+  color: #ffffff;
+  padding: 2px 15px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  font-size: 14px;
+ margin-right: 10px;
+
+}
+
+.singleCocktail img{
+  width: 80%;
+  height: 500px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
